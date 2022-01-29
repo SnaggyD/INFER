@@ -73,9 +73,9 @@ var strStudyAreaName = "Ramor ( Lough )"
 var StudyArea = table.filter(ee.Filter.eq("NAME","Ramor ( Lough )")).geometry();
 //var StudyArea = table.filter(ee.Filter.eq("EDENLakeCo","7001590600")).geometry();
 
-//Filter early and improve performance. The date range refers to the operational life of satellite
+//Filter early and improve performance. 
 var landsat8Toa = landsat8Toa.filterBounds(StudyArea)
-    .filterDate('2013-04-01', '2020-10-01');
+    .filterDate('2013-04-01', '2021-03-11');
     
 // This command filters the collection to one that only contains whole lake polygons i.e. the lake isn't split across multiple scenes.
 landsat8Toa = landsat8Toa.filter(ee.Filter.contains({ leftField: '.geo', rightValue: StudyArea }));
