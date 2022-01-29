@@ -74,11 +74,10 @@ Note that one Landsat Product can contain observations of a number of lakes.
 
 Contributors names and contact info
 
-Conor Delaney  
-[@snaggyd](https://twitter.com/snaggyd)
+Conor Delaney   [@snaggyd](https://twitter.com/snaggyd)
 
 ## License
 
-This project is licensed under the Creative Commons By 4.0 License - see the LICENSE.md file for details
+This project is licensed under the Creative Commons By 4.0 License
 
 
