@@ -17,7 +17,7 @@ The algorithm follows these steps:
 
 * Filter a complete Landsat collection of images downn to a set images that contain the lake of interest.
 * Filter this new collection by setting date range of interest.
-* Add a Simple Cloud Cover score (an algorithm implemented and supplies as an API by GEE) to each pixel of image in the filtered collection.
+* Add a Simple Cloud Cover score (an algorithm implemented and supplied as an API by GEE) to each pixel of image in the filtered collection.
 * Calculate the average Simple Cloud Score over the lake of interest and filter the remaining collection using the metric of cloud cover over the lake. The code supplied here creates a collection of Landsat images where the cloud cover over the desired lake is less than 25%. 
 
 ### Viewing Results
